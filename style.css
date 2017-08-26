@@ -1,0 +1,28 @@
+.items {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 200px;
+}
+
+.item {
+    flex: 1 1 100px;
+    background-color: #eee;
+    padding: 5px;
+    margin-right: 10px;
+    border: 2px solid transparent;
+}
+
+.item.item-active {
+    border: 2px solid #568dca;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    left: 50%;
+    border: 1px solid #fefefe;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}
